@@ -1,0 +1,34 @@
+.Banner {
+  height: 100vh;
+}
+
+.BannerContent {
+  width: 50vw;
+  color: white;
+  padding-left: 20px;
+  padding-top: 200px;
+}
+
+.BannerContent h1 {
+  font-size: 54px;
+}
+
+.BannerContent p {
+  font-size: 14px;
+  line-height: 1.2;
+  width: 30vw;
+}
+
+.BannerContent button {
+  background-color: #49464686;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.BannerContent button:active {
+  background-color: #615d5d;
+}

@@ -1,0 +1,56 @@
+.Vertical {
+  display: flex;
+  gap: 10px;
+  padding-left: 30px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.Vertical img {
+  width: 180px;
+  height: auto;
+}
+
+.Vertical img:hover {
+  transform: scale(1.1);
+}
+
+.Horizontal {
+  display: flex;
+  gap: 10px;
+  padding-left: 30px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.Horizontal img {
+  width: 250px;
+  height: auto;
+}
+
+.Horizontal img:hover {
+  transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+  background: gray;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: #000;
+  border-radius: 10px;
+}

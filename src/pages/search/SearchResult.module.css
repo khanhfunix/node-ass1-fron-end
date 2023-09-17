@@ -1,0 +1,20 @@
+.Result {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  row-gap: 5px;
+  padding-left: 30px;
+  overflow: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.Result img {
+  width: 160px;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.Result img:hover {
+  transform: scale(1.1);
+}
